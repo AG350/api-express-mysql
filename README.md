@@ -6,4 +6,5 @@
  - Express
  - Body Parser
  - Sequalize
- - 
+ - MySQL2
+ - Nodemon
