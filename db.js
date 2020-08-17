@@ -1,8 +1,8 @@
-const Sequalize = require('sequelize');
+const Sequelize = require('sequelize');
 
 const FilmModel = require('./models/films');
 
-const sequelize = new Sequalize(
+const sequelize = new Sequelize(
     'MEYxa6UN2m',
     'MEYxa6UN2m',
     'OpQWrh5EKT',
@@ -12,7 +12,7 @@ const sequelize = new Sequalize(
     }
 );
 
-const Film = FilmModel(sequelize,Sequalize);
+const Film = FilmModel(sequelize,Sequelize);
 sequelize.sync({force: false})
     .then(() => {
         console.log('Tablas sincronizadas');

@@ -1,5 +1,5 @@
-module.exports = (sequalize, type) => {
-    return sequalize.define('film',{
+module.exports = (sequelize, type) => {
+    return sequelize.define('film',{
         id: {
             type: type.INTEGER,
             primaryKey: true,
