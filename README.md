@@ -1,4 +1,4 @@
-# RESt API con Express y MySQL
+# REST API con Express y MySQL
 ## Sistema con validacion de usuarios, listado de peliculas y puntuacion de las mismas
 ## Comenzando 🚀
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
@@ -51,6 +51,6 @@ _El servidor estara corriendo en el localhost:3000_
 
  - Express
  - Body Parser
- - Sequalize
+ - Sequelize
  - MySQL2
  - Nodemon
