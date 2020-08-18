@@ -13,4 +13,12 @@ router.post('/', async (req,res) => {
     res.json(films);
 });
 
+//crear una nueva pelicula
+router.put('/:id', async (req,res) => {
+    await Film.update(req.body, {
+       where: { id: req.params.id } 
+    });
+    res.json({ success: 'Registro modificado'});
+});
+
 module.exports = router;

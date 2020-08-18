@@ -38,7 +38,7 @@ _El servidor estara corriendo en el localhost:3000_
 #### Peliculas
 - [x] /api/films (GET) - recuperar listado de peliculas 
 - [x] /api/films (POST) - Crear un nuevo registro 
-- [ ] /api/films/:id (PUT) - editar el registro enviado por parametro 
+- [x] /api/films/:id (PUT) - editar el registro enviado por parametro 
 - [ ] /api/films/:id (DELETE) - eliminar el registro enviado por parametro 
 
 #### Usuarios
