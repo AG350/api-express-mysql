@@ -1,7 +1,7 @@
 # RESt API con Express y MySQL
 ## Sistema con validacion de usuarios, listado de peliculas y puntuacion de las mismas
 ## Comenzando 🚀
-
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 _
 
 ### Pre-requisitos 📋
