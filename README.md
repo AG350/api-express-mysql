@@ -42,10 +42,9 @@ _El servidor estara corriendo en el localhost:3000_
 - [X] /api/films/:id (DELETE) - eliminar el registro enviado por parametro 
 
 #### Usuarios
-- [ ] /api/users (GET) - recuperar listado de usuarios 
-- [ ] /api/users (POST) - Crear un nuevo registro 
-- [ ] /api/users/:id (PUT) - editar el registro enviado por parametro 
-- [ ] /api/users/:id (DELETE) - eliminar el registro enviado por parametro 
+- [ ] /api/users/login (GET) - recuperar listado de usuarios 
+- [ ] /api/users/register (POST) - Crear un nuevo registro 
+
 
 ## Librerias utilizadas:
 
@@ -54,3 +53,4 @@ _El servidor estara corriendo en el localhost:3000_
  - Sequelize
  - MySQL2
  - Nodemon
+ - BcryptJS
