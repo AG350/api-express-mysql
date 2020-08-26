@@ -43,14 +43,15 @@ _El servidor estara corriendo en el localhost:3000_
 
 #### Usuarios
 - [ ] /api/users/login (GET) - recuperar listado de usuarios 
-- [ ] /api/users/register (POST) - Crear un nuevo registro 
+- [x] /api/users/register (POST) - Crear un nuevo registro 
 
 
 ## Librerias utilizadas:
 
- - Express
- - Body Parser
- - Sequelize
- - MySQL2
- - Nodemon
- - BcryptJS
+ - [Express](https://expressjs.com/es/)
+ - [Body Parser](https://www.npmjs.com/package/body-parser)
+ - [Sequelize](https://sequelize.org/)
+ - [MySQL2](https://www.npmjs.com/package/mysql2)
+ - [Nodemon](https://nodemon.io/)
+ - [BcryptJS](https://www.npmjs.com/package/bcryptjs)
+ - [Express Validator](https://express-validator.github.io/docs/)
